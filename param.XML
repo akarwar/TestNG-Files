@@ -1,0 +1,16 @@
+<suite name="Parameter Execise">
+	<test name="Exercise" preserve-order="true">
+	
+		<parameter name="username" value="editor" />
+		<parameter name="password" value="Welcome1"/>
+	
+		<classes>
+		
+		<class name="newPackage.parameterXML">
+			<method>
+				<include name="param" />
+			</method>
+		</class>
+		</classes>
+	</test>
+</suite>

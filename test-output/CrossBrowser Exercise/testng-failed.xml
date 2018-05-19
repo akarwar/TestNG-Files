@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowser Exercise]">
+  <test thread-count="5" name="Firefox CrossBrowser(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="newPackage.crossBrowserTesting">
+        <methods>
+          <include name="verifyPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- newPackage.crossBrowserTesting -->
+    </classes>
+  </test> <!-- Firefox CrossBrowser(failed) -->
+</suite> <!-- Failed suite [CrossBrowser Exercise] -->

@@ -1,0 +1,35 @@
+<suite name="TestSuite">
+	<test name="my test" preserve-order="true">
+
+		<classes>
+			<class name="xmlTest.XmlTest">
+
+				<methods>
+					<include name="xmlTest" />
+
+				</methods>
+
+
+			</class>
+
+			<class name="test2.TestXML2">
+
+				<methods>
+					<include name="Tester" />
+
+				</methods>
+
+
+			</class>
+
+
+
+		</classes>
+
+
+
+
+
+
+	</test>
+</suite>

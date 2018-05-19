@@ -1,0 +1,13 @@
+<suite name="OrangeHRM">
+	<test name="OHRMLogin">
+		<parameters>
+			<parameter name="UID" value="admin" />
+			<parameter name="PWD" value="admin" />
+		</parameters>
+		<classes>
+		
+			<class name="ExcelDataProvider.orangeHRMLogin2" />
+			
+		</classes>
+	</test>
+</suite>

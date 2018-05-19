@@ -1,0 +1,18 @@
+<suite name="Parameter Execise">
+	<test name="Exercise" preserve-order="true">
+	
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin"/>
+		<parameter name="firstname" value="basir"/>
+		<parameter name="lastname" value="wardak"/>
+		<parameter name="email" value="basir.wardak124@gmail.com"/>
+		<classes>
+		
+		<class name="newPackage.organgeHRMlogin">
+			<method>
+				<include name="param" />
+			</method>
+		</class>
+		</classes>
+	</test>
+</suite>
